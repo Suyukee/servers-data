@@ -4,22 +4,22 @@
 			{
 				"id": "1",
 				"name": "United Kingdom",
-				"ip": "122.04.3.3"
+				"ip": "122.4.3.3"
 			},
 			{
 				"id": "2",
 				"name": "USA",
-				"ip": "122.04.3.3"
+				"ip": "122.4.3.3"
 			},
 			{
 				"id": "3",
 				"name": "Canada",
-				"ip": "122.04.3.3"
+				"ip": "122.4.3.3"
 			},
 			{
 				"id": "4",
 				"name": "United Kingdom",
-				"ip": "122.04.3.3"
+				"ip": "122.4.3.3"
 			}
 		],
 		"meta": {
@@ -31,16 +31,16 @@
 	"sports": {
 		"list": [
 			{
-				"id": "1",
-				"name": "Test"
+				"id": "5",
+				"name": "Football"
 			},
 			{
-				"id": "2",
-				"name": "Test"
+				"id": "6",
+				"name": "Basketball"
 			},
 			{
-				"id": "3",
-				"name": "Test"
+				"id": "7",
+				"name": "Hockey"
 			}
 		],
 		"meta": {
@@ -52,31 +52,52 @@
 	"domains": {
 		"list": [
 			{
-				"id": "1",
+				"id": "8",
 				"name": "domen 1",
 				"link": "domen.com",
-				"sport_id": "1",
-				"server_id": "1",
+				"sport": {
+					"id": "5",
+					"name": "Football"
+				},
+				"server": {
+					"id": "1",
+					"name": "United Kingdom",
+					"ip": "122.4.3.3"
+				},
 				"far": false,
 				"status": false,
 				"additional_info": {}
 			},
 			{
-				"id": "2",
+				"id": "9",
 				"name": "domen 2",
 				"link": "domen.com",
-				"sport_id": "2",
-				"server_id": "2",
+				"sport": {
+					"id": "6",
+					"name": "Basketball"
+				},
+				"server": {
+					"id": "2",
+					"name": "USA",
+					"ip": "122.4.3.3"
+				},
 				"far": false,
 				"status": false,
 				"additional_info": {}
 			},
 			{
-				"id": "3",
+				"id": "10",
 				"name": "domen 3",
 				"link": "domen.com",
-				"sport_id": "3",
-				"server_id": "3",
+				"sport": {
+					"id": "6",
+					"name": "Football"
+				},
+				"server": {
+					"id": "3",
+					"name": "Canada",
+					"ip": "122.4.3.3"
+				},
 				"far": false,
 				"status": false,
 				"additional_info": {}
@@ -90,7 +111,7 @@
 	},
 	"colors": [
 		{
-			"id": "1",
+			"id": "11",
 			"name": "Blue",
 			"main": "#2374EE",
 			"dark": "#1D60D1",
@@ -98,7 +119,7 @@
 			"light": "#EBF3FF "
 		},
 		{
-			"id": "2",
+			"id": "12",
 			"name": "Pink",
 			"main": "#EE23CE",
 			"dark": "#D129B6",
@@ -106,7 +127,7 @@
 			"light": "#F6B9ED"
 		},
 		{
-			"id": "3",
+			"id": "13",
 			"name": "Light purple",
 			"main": "#9535E0",
 			"dark": "#8132BF",
