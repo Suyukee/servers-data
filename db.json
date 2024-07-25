@@ -48,5 +48,70 @@
 			"page": 1,
 			"limit": 10
 		}
-	}
+	},
+	"domains": {
+		"list": [
+			{
+				"id": "1",
+				"name": "domen 1",
+				"link": "domen.com",
+				"sport_id": "1",
+				"server_id": "1",
+				"far": false,
+				"status": false,
+				"additional_info": {}
+			},
+			{
+				"id": "2",
+				"name": "domen 2",
+				"link": "domen.com",
+				"sport_id": "2",
+				"server_id": "2",
+				"far": false,
+				"status": false,
+				"additional_info": {}
+			},
+			{
+				"id": "3",
+				"name": "domen 3",
+				"link": "domen.com",
+				"sport_id": "3",
+				"server_id": "3",
+				"far": false,
+				"status": false,
+				"additional_info": {}
+			}
+		],
+		"meta": {
+			"total": 3,
+			"page": 1,
+			"limit": 10
+		}
+	},
+	"colors": [
+		{
+			"id": "1",
+			"name": "Blue",
+			"main": "#2374EE",
+			"dark": "#1D60D1",
+			"text_dark": "#041C46",
+			"light": "#EBF3FF "
+		},
+		{
+			"id": "2",
+			"name": "Pink",
+			"main": "#EE23CE",
+			"dark": "#D129B6",
+			"text_dark": "#4D0A42",
+			"light": "#F6B9ED"
+		},
+		{
+			"id": "3",
+			"name": "Light purple",
+			"main": "#9535E0",
+			"dark": "#8132BF",
+			"text_dark": "#270443",
+			"light": "#E8CBFE"
+		}
+	]
 }
