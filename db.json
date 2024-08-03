@@ -1,93 +1,114 @@
 {
-	"servers": [
-		{
-			"id": "1",
-			"name": "United Kingdom",
-			"ip": "122.4.3.3"
-		},
-		{
-			"id": "2",
-			"name": "USA",
-			"ip": "122.4.3.3"
-		},
-		{
-			"id": "3",
-			"name": "Canada",
-			"ip": "122.4.3.3"
-		},
-		{
-			"id": "4",
-			"name": "United Kingdom",
-			"ip": "122.4.3.3"
-		}
-	],
-	"sports": [
-		{
-			"id": "5",
-			"name": "Football"
-		},
-		{
-			"id": "6",
-			"name": "Basketball"
-		},
-		{
-			"id": "7",
-			"name": "Hockey"
-		}
-	],
-	"domains": [
-		{
-			"id": "8",
-			"name": "domen 1",
-			"link": "domen.com",
-			"sport": {
-				"id": "5",
-				"name": "Football"
-			},
-			"server": {
+	"servers": {
+		"list": [
+			{
 				"id": "1",
 				"name": "United Kingdom",
 				"ip": "122.4.3.3"
 			},
-			"far": false,
-			"status": false,
-			"additional_info": {}
-		},
-		{
-			"id": "9",
-			"name": "domen 2",
-			"link": "domen.com",
-			"sport": {
-				"id": "6",
-				"name": "Basketball"
-			},
-			"server": {
+			{
 				"id": "2",
 				"name": "USA",
 				"ip": "122.4.3.3"
 			},
-			"far": false,
-			"status": false,
-			"additional_info": {}
-		},
-		{
-			"id": "10",
-			"name": "domen 3",
-			"link": "domen.com",
-			"sport": {
-				"id": "6",
-				"name": "Football"
-			},
-			"server": {
+			{
 				"id": "3",
 				"name": "Canada",
 				"ip": "122.4.3.3"
 			},
-			"far": false,
-			"status": false,
-			"additional_info": {}
+			{
+				"id": "4",
+				"name": "United Kingdom",
+				"ip": "122.4.3.3"
+			}
+		],
+		"meta": {
+			"page": 1,
+			"pages": 10,
+			"limit": 10
 		}
-	],
+	},
+	"sports": {
+		"list": [
+			{
+				"id": "5",
+				"name": "Football"
+			},
+			{
+				"id": "6",
+				"name": "Basketball"
+			},
+			{
+				"id": "7",
+				"name": "Hockey"
+			}
+		],
+		"meta": {
+			"page": 1,
+			"pages": 10,
+			"limit": 10
+		}
+	},
+	"domains": {
+		"list": [
+			{
+				"id": "8",
+				"name": "domen 1",
+				"link": "domen.com",
+				"sport": {
+					"id": "5",
+					"name": "Football"
+				},
+				"server": {
+					"id": "1",
+					"name": "United Kingdom",
+					"ip": "122.4.3.3"
+				},
+				"far": false,
+				"status": false,
+				"additional_info": {}
+			},
+			{
+				"id": "9",
+				"name": "domen 2",
+				"link": "domen.com",
+				"sport": {
+					"id": "6",
+					"name": "Basketball"
+				},
+				"server": {
+					"id": "2",
+					"name": "USA",
+					"ip": "122.4.3.3"
+				},
+				"far": false,
+				"status": false,
+				"additional_info": {}
+			},
+			{
+				"id": "10",
+				"name": "domen 3",
+				"link": "domen.com",
+				"sport": {
+					"id": "6",
+					"name": "Football"
+				},
+				"server": {
+					"id": "3",
+					"name": "Canada",
+					"ip": "122.4.3.3"
+				},
+				"far": false,
+				"status": false,
+				"additional_info": {}
+			}
+		],
+		"meta": {
+			"page": 1,
+			"pages": 10,
+			"limit": 10
+		}
+	},
 	"colors": [
 		{
 			"id": "11",
